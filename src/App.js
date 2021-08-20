@@ -6,6 +6,7 @@ import Header from './Components/Header';
 //import Particles from './Components/Particles';
 import Aboutme from './Components/Aboutme';
 import Services from './Components/Services';
+import Contacts from './Components/Contacts';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Header/>
     <Aboutme/>
     <Services/>
+    <Contacts/>
     </>
   );
 }
