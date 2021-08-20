@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import Header from './Components/Header';
 //import Particles from './Components/Particles';
 import Aboutme from './Components/Aboutme';
+import Services from './Components/Services';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Navbar/>
     <Header/>
     <Aboutme/>
+    <Services/>
     </>
   );
 }
