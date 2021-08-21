@@ -352,3 +352,24 @@ imput.form-control{
 .footer p{
   margin-bottom: 0;
 }
+
+ /*****************************************Certificates*******************************************/
+.portfolio-wrapper{
+  background: rgb(241, 227, 227);
+  padding: 3rem 0;
+  overflow-x: hidden;
+}
+
+.certificate-image{
+  width: 25rem !important;
+  border: 2px solid blue;
+  padding: 0 0.5rem;
+}
+
+.portfolio-image-box{
+  position: relative !important;
+  margin: 1rem;
+  left: 27rem;
+  
+}
+
