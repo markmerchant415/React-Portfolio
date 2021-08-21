@@ -106,7 +106,7 @@ nav ul li{
   background: url(wallpaperbg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info{
@@ -217,7 +217,8 @@ nav ul li{
   border-bottom: 0.3125rem solid var(--primary-orange);
   padding: 0.625rem;
   margin-bottom: 1.875rem;
-  background: var(--primary-white)
+  background: var(--primary-white);
+  transition: 0.3s ease-in-out;
 }
 
 .Services .box:hover{
@@ -327,4 +328,27 @@ imput.form-control{
   .contacts p{
     padding: 0 0.4rem;
   }
+}
+
+/*******************************FOOTER***********************************/
+
+.footer{
+  background: black;
+  color: var(--primary-dark);
+  padding: 3rem;
+}
+
+.footer a{
+  text-decoration: none;
+  color: var(--primary-light-grey)
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p{
+  margin-bottom: 0;
 }

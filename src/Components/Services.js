@@ -5,7 +5,7 @@ import { faCalendarPlus, faDatabase, faDesktop } from '@fortawesome/free-solid-s
 
 const Services = () => {
     return (
-        <div className="Services">
+        <div id="services" className="Services">
             <h1 className="py-5"> My Specialities </h1>
                 <div className="container">
                     <div className="row">
